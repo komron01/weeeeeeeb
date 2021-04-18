@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+}
+img {
+  float:left;
+  clear: none;
+}
+h1 {
+  color: darkgreen;
+  text-align:center;
+}
+.sup_lang{
+margin-top: 50px;
+margin-left: 50px;
+}
+#lines {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+form{
+  margin-top: 150px;
+  text-align: center;
+}
+
+
+.divka1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.divka1 > .a {order: 3; } /* Will be displayed third  */
+.divka1 > .b {order: 1; } /* Will be displayed second */
+.divka1 > .c {order: 2; } /* Will be displayed first  */
+
+.a{
+  height: 200px;
+  width: 200px;
+  background-color:red;
+}
+.b{
+  height: 200px;
+  width: 200px;
+  background-color:blue;
+}
+.c{
+  height: 200px;
+  width: 200px;
+  background-color:green;
+}
+#divka2{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+#lol{
+  color: black;
+}
